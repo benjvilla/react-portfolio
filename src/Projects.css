@@ -1,0 +1,18 @@
+
+/* projects container for images and links */
+.projectDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* picture for jeopardy project */
+#jeopardyPic {
+    width: 40%;
+    
+}
+
+/* link with button to jeopardy github */
+#jeopardyLink {
+    width: 30%;
+}

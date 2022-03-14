@@ -1,0 +1,28 @@
+
+
+/* "paragraph" of text for hoobby page - just filler for now */
+#hobbyPara {
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+/* container for images */
+.hobbyPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; 
+}
+
+/* cube image */
+#cube {
+    display: flex;
+    width: 25%;
+}
+
+/* theatre pic of myself */
+#theatre {
+    display: flex;
+    width: 25%;
+}

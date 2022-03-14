@@ -1,0 +1,27 @@
+
+/* container for History content */
+.historyDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/* text paragraph */
+#historyPara {
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+/* resume image */
+#resumeJPEG {
+    width: 35%;
+    
+}
+
+/* anchor tag for downloading pdf on image click */
+#aHistory {
+    display: flex;
+    justify-content: center;
+}

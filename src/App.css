@@ -1,38 +1,99 @@
-.App {
+
+/* everthing returned from App.js */
+main {
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(./assets/spacepic.jpg);
+  height: 100vh;
+}
+
+
+/* header element containing h1, div.fleet, and nav */
+header {
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(./assets/stardestroyer3.jpeg);
+  padding-top: 1%;
+  padding-bottom: 15%;
+}
+
+/* affects h1 element within App.js */
+h1 {
+  width: 100%;
+  justify-items: center;
+  text-align: center;
+  background-color: rgb(0,255,0);
+  border-radius: 2px;
+  border-color: black;
+  color:  white;
+  font-size: 2.5rem;
+  text-shadow: -1px 1px 0 #000, 
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}
+
+/* div to encase img within header */
+/* div created for future img elements and functionality */
+.fleet {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Tie Fighter img that "flies" across the header */
+#tie4 {
+  width: 3rem;
+  margin-left: -50%;
+  animation-name: slidein;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* start Tie from right of browser, "slides" across to off left browser */
+@keyframes slidein {
+  from {
+      margin-left: 110%;
+  }
+  to {
+      margin-left: -50%;
+  }
+}
+
+/* nav bar of links to components */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1%;
+  margin-right: 1%;
+  
+}
+
+/* h2 text */
+h2 {
+  background-color: rgb(177, 177, 177);
+  margin-top: 0%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* **links needed */
+/*affects all pages*/
+footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-around;
+  width: 100%;
 
-.App-link {
-  color: #61dafb;
-}
+  background-color: rgb(0,255,0);
+  color:  white;
+  font-size: 20px;
+  text-shadow: -1px 1px 0 #000, 
+  1px 1px 0 #000,
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
+}  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

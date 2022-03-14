@@ -1,0 +1,27 @@
+
+/* container for Home page content */
+.homeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text above image */
+#homePara {
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+/* image of myself between text */
+#nice {
+    width: 30%;
+}
+
+/* text below image */
+#homePara2 {
+    background-color: rgb(177, 177, 177);
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
