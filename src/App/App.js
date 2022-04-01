@@ -2,12 +2,12 @@
 import React from "react";
 import { NavLink, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Home from "./Home";
-import About from "./About";
-import Projects from "./Projects";
-import Hobbies from "./Hobbies";
-import History from "./History";
-import Tie from "./assets/tie4.png";
+import Home from "../Components/Home/Home";
+import About from "../Components/About/About";
+import Projects from "../Components/Projects/Projects";
+import Hobbies from "../Components/Hobbies/Hobbies";
+import History from "../Components/History/History";
+import Tie from "../assets/tie4.png";
 
 function App() {
 

@@ -1,7 +1,7 @@
 // History imports
 import React from "react";
 import "./History.css"
-import ResumeJPEG from "./assets/ResumeJPEG.JPG"
+import ResumeJPEG from "../assets/ResumeJPEG.JPG"
 
 
 export default function History() {

@@ -1,7 +1,7 @@
 // About page imports
 import React from "react";
 import "./About.css"
-import Chair from "./assets/insta/chairpic.jpg"
+import Chair from "../assets/insta/chairpic.jpg"
 
 export default function About() {
 

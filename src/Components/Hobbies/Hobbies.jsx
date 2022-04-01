@@ -1,8 +1,8 @@
 // Hobbies page imports
 import React from "react";
 import "./Hobbies.css"
-import Cube from "./assets/rubiks.jpg"
-import Theatre from "./assets/insta/theatrepic.jpg"
+import Cube from "../assets/rubiks.jpg"
+import Theatre from "../assets/insta/theatrepic.jpg"
 
 export default function Hobbies() {
 

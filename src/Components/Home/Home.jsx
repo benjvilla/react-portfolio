@@ -1,7 +1,7 @@
 //Home page imports
 import React from "react";
 import "./Home.css"
-import Nice from "./assets/insta/nicepic.jpg"
+import Nice from "../assets/insta/nicepic.jpg"
 
 export default function Home() {
 

@@ -9,9 +9,12 @@
 
 /* text above image */
 #homePara {
-    background-color: rgb(177, 177, 177);
     color: rgb(0, 255, 0);
     text-align: center;
+    text-shadow: -1px 1px 0 #000, 
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 /* image of myself between text */
