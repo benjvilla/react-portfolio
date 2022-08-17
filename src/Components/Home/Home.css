@@ -9,6 +9,7 @@
 
 /* text above image */
 #homePara {
+    background-color: black;
     color: rgb(0, 255, 0);
     text-align: center;
     text-shadow: -1px 1px 0 #000, 
@@ -24,7 +25,7 @@
 
 /* text below image */
 #homePara2 {
-    background-color: rgb(177, 177, 177);
+    background-color: black;
     color: rgb(0, 255, 0);
     text-align: center;
 }

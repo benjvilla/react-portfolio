@@ -2,7 +2,7 @@
 
 /* "paragraph" of text for hoobby page - just filler for now */
 #hobbyPara {
-    background-color: rgb(177, 177, 177);
+    background-color: black;
     color: rgb(0, 255, 0);
     text-align: center;
 }

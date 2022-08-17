@@ -3,7 +3,7 @@
 main {
   max-width: 100%;
   background-size: cover;
-  background-image: url(../assets/spacepic.jpg);
+  background-image: url(../Components/assets/spacepic.jpg);
   height: 100vh;
 }
 
@@ -12,7 +12,7 @@ main {
 header {
   max-width: 100%;
   background-size: cover;
-  background-image: url(../assets/stardestroyer3.jpeg);
+  background-image: url(../Components/assets/stardestroyer3.jpeg);
   padding-top: 1%;
   padding-bottom: 15%;
 }

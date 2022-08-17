@@ -9,7 +9,7 @@
 
 /* text above image */
 #aboutPara {
-    background-color: rgb(177, 177, 177);
+    background-color: black;
     color: rgb(0, 255, 0);
     text-align: center;
 }
@@ -21,7 +21,7 @@
 
 /* text below image */
 #aboutPara2 {
-    background-color: rgb(177, 177, 177);
+    background-color: black;
     color: rgb(0, 255, 0);
     text-align: center;
 }

@@ -7,7 +7,7 @@ import About from "../Components/About/About";
 import Projects from "../Components/Projects/Projects";
 import Hobbies from "../Components/Hobbies/Hobbies";
 import History from "../Components/History/History";
-import Tie from "../assets/tie4.png";
+import Tie from "../Components/assets/tie4.png";
 
 function App() {
 
